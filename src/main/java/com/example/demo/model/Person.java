@@ -10,6 +10,14 @@ public class Person {
     Double height;
     Double mass;
 
+    public Person(){}
+
+    public Person(String name, Double height, Double mass) {
+        this.name = name;
+        this.height = height;
+        this.mass = mass;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
