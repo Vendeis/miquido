@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package miquido.controller;
 
-import com.example.demo.model.Person;
-import com.example.demo.service.PersonService;
+import miquido.model.Person;
+import miquido.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,7 +15,6 @@ public class PersonController {
 
     @PostMapping("/import/{id}")
     public Person importPerson(@PathVariable Integer id) {
-
         return personService.importCharacter(id);
     }
 

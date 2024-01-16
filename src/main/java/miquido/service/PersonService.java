@@ -1,9 +1,9 @@
-package com.example.demo.service;
+package miquido.service;
 
-import com.example.demo.exception.PersonNotFoundException;
-import com.example.demo.exception.SwapiPersonNotFoundException;
-import com.example.demo.model.Person;
-import com.example.demo.repository.PersonRepository;
+import miquido.exception.PersonNotFoundException;
+import miquido.exception.SwapiPersonNotFoundException;
+import miquido.model.Person;
+import miquido.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

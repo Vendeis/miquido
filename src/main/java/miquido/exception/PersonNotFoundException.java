@@ -1,4 +1,4 @@
-package com.example.demo.exception;
+package miquido.exception;
 
 public class PersonNotFoundException extends RuntimeException {
     public PersonNotFoundException(String name) {

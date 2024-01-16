@@ -1,8 +1,8 @@
-package com.example.demo;
+package miquido;
 
-import com.example.demo.model.Person;
-import com.example.demo.repository.PersonRepository;
-import com.example.demo.service.PersonService;
+import miquido.model.Person;
+import miquido.repository.PersonRepository;
+import miquido.service.PersonService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
